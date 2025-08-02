@@ -1,0 +1,42 @@
+Minimalist Recipe Blog - Technical Specifications
+HTML Tags Used:
+nav - Navigation bar for site-wide menu
+header - Hero section on homepage
+section - Content sections throughout pages
+article - Individual recipe cards and content blocks
+aside - Sidebar content on about and contact pages
+footer - Site footer with copyright information
+form - Contact form and newsletter signup
+input - Form input fields for user data
+textarea - Message input in contact form
+select - Dropdown for subject selection
+button - Interactive buttons throughout the site
+img - Recipe and content images
+ul/li - Lists for navigation and content
+div - Layout containers and Bootstrap grid
+span - Inline elements like badges and small text
+
+CSS Properties Used:
+font-family - Typography styling for body text
+background - Linear gradients for hero sections and newsletter
+transition - Smooth animations for hover effects
+transform - Card hover effects and button interactions
+box-shadow - Depth effects on cards and buttons
+border-radius - Rounded corners on buttons and cards
+margin - Spacing between elements
+padding - Internal spacing for containers
+color - Text colors throughout the site
+font-size - Typography hierarchy
+
+CSS Selectors Used:
+Tag selector (body, nav, footer) - Base element styling
+Class selector (.recipe-card, .hero-section) - Component styling
+ID selector (#newsletter, #contactForm) - Unique element styling
+Pseudo-class selector (:hover, :focus) - Interactive states
+Descendant selector (.navbar .nav-link) - Nested element styling
+
+JavaScript Implementation:
+Interactive features include form validation with real-time feedback, recipe filtering system with smooth animations, hover effects on recipe cards, newsletter subscription with confirmation alerts, animated counters on the about page, and character counting for the contact form message field.
+
+Bootstrap Integration:
+Utilized Bootstrap's responsive grid system, navigation components with collapsible mobile menu, card components for recipe display, form styling and validation classes, button components with various styles, accordion component for FAQ section, and responsive utilities for mobile-first design.
